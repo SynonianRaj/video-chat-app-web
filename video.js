@@ -26,8 +26,7 @@ const ICE_CONFIG = {
 
 
 // const ws = new BroadcastChannel('test')
-const ws = new WebSocket("ws://192.168.137.1:8000/ws/video/room_2_2/")
- //const ws = new WebSocket("ws://127.0.0.1:8000/ws/video/room_2_2/")
+const ws = new WebSocket("ws://127.0.0.1:8000/ws/video/room_2_2/")
 
 let offerSdp
 
