@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>1-to-1 Video Chat</title>
+  <style>
+    video { width: 320px; height: 240px; background: #000; transform: scaleX(-1);}
+  </style>
+</head>
+<body>
+  <input id="username" placeholder="Your name"/>
+  <button id="join">Join Room</button>
+  <button id="accept">Accept call</button>
+  
+
+  <video id="localVideo" autoplay playsinline muted></video>
+  <video id="remoteVideo" autoplay playsinline></video>
+
+
+   <script src="video.js"></script>
+
+</body>
+</html>
